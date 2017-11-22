@@ -10,6 +10,7 @@ Jekyll categories correspond to Zepto modules, e.g. "ajax", "event".
 The site can be built with:
 
 ~~~ sh
+# 从 zepto 的 gh-pages 分支 clone 的代码，主要对 zepto.js 源码解读时进行了注解
 $ script/bootstrap
 $ bin/jekyll build
 $ open public/index.html
